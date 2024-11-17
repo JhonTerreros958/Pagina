@@ -4,8 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AdminLTE 3 | Blank Page</title>
+<?php 
+  define("BASE_URL", "/Pagina/views/");
 
-  <?php require_once("modulos/css.php"); ?>
+  require_once("Pagina/config/conexion.php");
+  if(isset($_SESSION["usu_id"])){
+    $id = $_SESSION["usu_id"];
+    $sql = "SELECT * FROM usuarios WHERE usu_id = '$id'";
+    $result = mysqli_query($conn, $sql);
+    $row = mysqli_fetch_assoc($result);
+    $nombre = $row["usu_nombre"];
+    $apellido = $row["usu_apellido"];
+    $email = $row["usu_email"];
+    $rol = $row["usu_rol"];
+  }else{
+    header("Location:".Conectar::ruta()."views/404.php");
+  }
+?>
+  
+<?php require_once("modulos/css.php"); ?>
 </head>
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
