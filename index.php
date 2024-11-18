@@ -9,8 +9,6 @@
     <head>
 </head>
 
-</head>
-
 <body>
     <section id="home">
         <div class="contenido">
