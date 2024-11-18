@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>::Mi pag web personal::</title>
-    <link rel="stylesheet" href="C:\Users\sebas\Documents\Programacion web 2 corte\21-10-24\public\css\style.css">
+    <link rel="stylesheet" href="C:\xampp\htdocs\Pagina\public\css\style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <head>
+</head>
+
 </head>
 
 <body>
@@ -29,7 +32,7 @@
             </header>
             <div class="presentacion">
                 <p class="mensaje">Bienvenidos</p>
-                <h2>Soy <span>Sebastian Lea'o Garcia</span> Ingeniero de sistemas</h2>
+                <h2>Soy <span>Jhon Terreros Vargas</span> Ingeniero de sistemas</h2>
                 <p class="descripciom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquid exercitationem, 
                     adipisci tempore assumenda atque, veritatis veniam animi facere quaerat quam quasi harum, eum voluptate repellendus 
                     tenetur ipsum officiis rem.</p>
@@ -43,7 +46,7 @@
         </div>
         <div class="info_sobreMi">
             <p class="titulo">Quien soy?</p>
-            <h2>Soy, <span>Sebastian Garcia</span></h2>
+            <h2>Soy, <span>Jhon Terreros</span></h2>
             <h3>Slogan</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus harum ex a sunt facere ea eveniet maxime modi 
                 at commodi ratione amet ut explicabo ipsa, iusto autem possimus ab similique.</p>
@@ -92,7 +95,7 @@
         <div class="skill">
             <div class="info">
                 <p><span class="lista"></span>HTML</p>
-                <span class="porcentaje">80%</span>
+                <span class="porcentaje">65%</span>
             </div>
             <div class="barra">
                 <div id="html" class="barra-progreso_html"></div>
@@ -101,7 +104,7 @@
         <div class="skill">
             <div class="info">
                 <p><span class="lista"></span>CSS</p>
-                <span class="porcentaje">75%</span>
+                <span class="porcentaje">55%</span>
             </div>
             <div class="barra">
                 <div id="css" class="barra-progreso_css"></div>
@@ -110,7 +113,7 @@
         <div class="skill">
             <div class="info">
                 <p><span class="lista"></span>JS</p>
-                <span class="porcentaje">55%</span>
+                <span class="porcentaje">35%</span>
             </div>
             <div class="barra">
                 <div id="js" class=""></div>
@@ -119,7 +122,7 @@
         <div class="skill">
             <div class="info">
                 <p><span class="lista"></span>PYTHON</p>
-                <span class="porcentaje">80%</span>
+                <span class="porcentaje">60%</span>
             </div>
             <div class="barra">
                 <div id="python" class=""></div>
@@ -171,25 +174,25 @@
             <div class="contact-card">
                 <i class='bx bx-envelope contact-card-icon'></i>
                 <h3 class="contact-card-title">Email</h3>
-                <span class="contact-card-data">sleano04@gmail.com</span>
+                <span class="contact-card-data">alexander05jtv@gmail.com</span>
             </div>
 
             <div class="contact-card">
                 <i class='bx bxl-whatsapp contact-card-icon'></i>
                 <h3 class="contact-card-title">Whatsapp</h3>
-                <span class="contact-card-data">(+57) 3194326591</span>
+                <span class="contact-card-data">(+57) 3123830533</span>
             </div>
 
             <div class="contact-card">
                 <i class='bx bxs-phone-call contact-card-icon'></i>
                 <h3 class="contact-card-title">Celular</h3>
-                <span class="contact-card-data">(+57) 3046741573</span>
+                <span class="contact-card-data">(+57) 3123830533</span>
             </div>
         </div>
     </section>
     <footer class="footer">
         <div class="footer-text">
-            <p>Sebastian Lea;o Garcia</p>
+            <p>Jhon Alexander Terreros Vargas</p>
         </div>
         <div class="footer_icon">
             <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
